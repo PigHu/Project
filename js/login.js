@@ -37,7 +37,7 @@ $(function() {
                 password: password,
             },
             success: function(res) {
-                console.log(res);
+                // console.log(res);
                 if (res.status !== 0) {
                     return layer.msg(res.message);
                 }
@@ -62,7 +62,7 @@ $(function() {
                 password: password,
             },
             success: function(res) {
-                console.log(res);
+                // console.log(res);
                 if (res.status !== 0) {
                     return layer.msg('登录失败');
                 }
